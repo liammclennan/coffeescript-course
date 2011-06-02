@@ -10,7 +10,6 @@ Part 1 - Meet CoffeeScript:
 * Syntax
 * Significant whitespace
 * Optional parenthesis
-
 * Hello World (CS site)
 * Some cool right | left stuff (before / after)
 * Some alternatives

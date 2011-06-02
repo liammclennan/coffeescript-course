@@ -1,3 +1,4 @@
+// a function that calculates the fizzbuzz value for a given input
 function map(value) {
   if (i % 3 === 0 && i % 5 === 0) {
     return "fizzbuzz";
@@ -10,7 +11,6 @@ function map(value) {
   }
   return i;
 }
-
 
 for (var i = 1; i <= 100; i++)
 {
