@@ -21,13 +21,25 @@ Part 1 - Meet CoffeeScript:
     * use the overview on the coffeescript site
 * Some alternatives
     * Traceur
-    * es next
+	    * http://code.google.com/p/traceur-compiler/
+    * ECMA Harmony
+	    * Next version of JS. Includes some ideas from CoffeeScript
+	    * http://wiki.ecmascript.org/doku.php
 
 ### Why CoffeeScript?
 
 * clean syntax
+    * little or no need for {} () and ;
 * added features
+    * classes
+	* array comprehensions
+	* splats 
+	* object enumeration
+	* ...
 * sins of the father (fixing javascript's faults)
+    * removes ===
+	* existential operator
+	* fixes lexical scoping
 
 ### Installing CoffeeScript
 
