@@ -19,6 +19,8 @@ Part 1 - Meet CoffeeScript:
 		* function declaration and invocation
 * Some cool right | left stuff (before / after)
     * use the overview on the coffeescript site
+* How it works
+	* CoffeeScript is a source-to-source compiler, written in CoffeeScript and published as a node.js package or as a standalone JavaScript. 
 * Some alternatives
     * Traceur
 	    * http://code.google.com/p/traceur-compiler/
@@ -48,7 +50,10 @@ Part 1 - Meet CoffeeScript:
 * Windows
     * Download node.js binaries http://node-js.prcn.co.cc/
 	* Get bootstrap scripts from https://github.com/liammclennan/coffeescript-course/blob/master/util
+	* Mention that coffee-script.js is the full official stand-alone compiler
+	* Explain very briefly how l.js works so that it is not magic
 	* Demo compiling and executing a simple CoffeeScript (modified hello_world2)
+		* Make it clear that this is not a mature or robust solution. It is a quick script provided to help beginners get started.		
 * Mac / Linux (don't demo this, just mention how it's done)
 	* Install Node
 	* Install CoffeeScript Compiler
@@ -58,6 +63,7 @@ Part 1 - Meet CoffeeScript:
 * Hello World (On Node)
 * editors
 * repl (unix only)
+* Eval on-the-fly in the browser wit text-coffeescript
 
 ### CoffeeScript Documentation
 

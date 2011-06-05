@@ -12,11 +12,13 @@ var args = {
 validateArgs();
 
 var commands = {
-	print: function (js) {
+	// print
+	p: function (js) {
 		console.log(js);
 	},
 
-	run: function (js) {
+	// run
+	r: function (js) {
 		eval(js);
 	}
 };
@@ -25,7 +27,7 @@ fs.readFile(__dirname + '/coffee-script.js', 'utf-8', function(err, content) {
     if (err) throw err;
     eval(content.toString());
 	fs.readFile(__dirname + '/' + args.coffeeScript, 'utf-8', function(e, c) {
-		if (err) throw err;	
+		if (err) throw err;
 		if (!c) {
 			console.log("Unable to load CoffeeScript file " + args.coffeeScript);
 			process.exit();
@@ -35,7 +37,10 @@ fs.readFile(__dirname + '/coffee-script.js', 'utf-8', function(err, content) {
 });
 
 function printUsageAndExit() {
-	console.log("Usage: node loader.js [coffee-script file] [print||run]");
+	console.log("Usage: node l.js [coffee-script file] [p||r]");
+	console.log("");
+	console.log("p: Print. Outputs to the console. To save to a file append: > output.js");
+	console.log("r: Run. Immediately execute the JavaScript.");
 	process.exit();
 }
 
@@ -44,7 +49,7 @@ function validateArgs() {
 		printUsageAndExit();
 	} 
 
-	if (args.command !== 'print' && args.command !== 'run') {
+	if (args.command !== 'p' && args.command !== 'r') {
 		printUsageAndExit();
 	}
 }
