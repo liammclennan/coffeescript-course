@@ -11,10 +11,17 @@ Part 1 - Meet CoffeeScript:
     * Significant whitespace
     * Optional parenthesis
 * Hello World (CS site)
+    * hello_coffeescript_1.coffee 
+	    * optional parenthesis and semi-colon
+    * hello_coffeescript_2.coffee
+	    * variable declaration and assignment
+		* string interpolation
+		* function declaration and invocation
 * Some cool right | left stuff (before / after)
+    * use the overview on the coffeescript site
 * Some alternatives
-* Traceur
-* es next
+    * Traceur
+    * es next
 
 ### Why CoffeeScript?
 
