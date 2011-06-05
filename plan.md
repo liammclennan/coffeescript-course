@@ -22,6 +22,8 @@ Part 1 - Meet CoffeeScript:
 * Some alternatives
     * Traceur
 	    * http://code.google.com/p/traceur-compiler/
+		* features http://code.google.com/p/traceur-compiler/wiki/LanguageFeatures
+		    * classes, modules, iterators ...
     * ECMA Harmony
 	    * Next version of JS. Includes some ideas from CoffeeScript
 	    * http://wiki.ecmascript.org/doku.php
@@ -44,16 +46,18 @@ Part 1 - Meet CoffeeScript:
 ### Installing CoffeeScript
 
 * Windows
-* Install SassAndCoffeeScript
-* Mac / Linux
-* Install Node
-* Install CoffeeScript Compiler
+    * Download node.js binaries http://node-js.prcn.co.cc/
+	* Get bootstrap scripts from https://github.com/liammclennan/coffeescript-course/blob/master/util
+	* Demo compiling and executing a simple CoffeeScript (modified hello_world2)
+* Mac / Linux (don't demo this, just mention how it's done)
+	* Install Node
+	* Install CoffeeScript Compiler
 
 ### Running CoffeeScript
 
 * Hello World (On Node)
 * editors
-* repl
+* repl (unix only)
 
 ### CoffeeScript Documentation
 
@@ -104,7 +108,7 @@ Part Three - CoffeeScript in Detail
 ### Classes
 * Inheritance
 
-### Functional Features or Working With Collections
+### Functional Features or Working With Collections ?? don't like this
 
 Part Four - Testing CoffeeScript
 --------------------------------
@@ -116,6 +120,10 @@ Part Four - Testing CoffeeScript
 Part Five - Putting CoffeeScript To Work
 ----------------------------------------
 
+### Asp.net and CoffeeScript with SassAndCoffee
+
 ### CoffeeScript And Ruby on Rails
 
 ### Server-Side CoffeeScript With Node and Express
+
+
