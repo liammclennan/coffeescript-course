@@ -65,8 +65,6 @@ Part 1 - Meet CoffeeScript:
 * repl (unix only)
 * Eval on-the-fly in the browser wit text-coffeescript
 
-### CoffeeScript Documentation
-
 Part Two - Your First CoffeeScript Programs
 -------------------------------------------
 
