@@ -52,38 +52,58 @@ Part 1 - Meet CoffeeScript:
 	* Get bootstrap scripts from https://github.com/liammclennan/coffeescript-course/blob/master/util
 	* Mention that coffee-script.js is the full official stand-alone compiler
 	* Explain very briefly how l.js works so that it is not magic
-	* Demo compiling and executing a simple CoffeeScript (modified hello_world2)
+	* Demo compiling and executing a simple CoffeeScript (hello_coffeescript_3_node.coffee)
 		* Make it clear that this is not a mature or robust solution. It is a quick script provided to help beginners get started.		
-* Mac / Linux (don't demo this, just mention how it's done)
-	* Install Node
-	* Install CoffeeScript Compiler
+* Mac / Linux
+	* Install Node https://github.com/joyent/node/wiki/Installation
+	* Install npm curl http://npmjs.org/install.sh | sh
+	* Install CoffeeScript package npm install coffee-script		
 
 ### Running CoffeeScript
 
-* Hello World (On Node)
+* Hello World (On Node on Windows)
+	* print hello_coffeescript_3_node.coffee
+	* save it to a file
+	* have node execute the file
+	* do it all in one step with r option
+* Hello World (On Node on *nix)
+	* coffee repl
+	* coffee -p hello_coffeescript_3_node.coffee
+	* coffee -c hello_coffeescript_3_node.coffee
+	* node hello_coffeescript_3_node.coffee
+	* watch
+		* coffee -w -c *.coffee
+		* demo automatic compilation
+	
 * editors
-* repl (unix only)
-* Eval on-the-fly in the browser wit text-coffeescript
+    * windows: rubymine / intellij + http://yeungda.github.com/coffeescript-idea/
+    * mac: textmate + https://github.com/jashkenas/coffee-script-tmbundle
+    * linux: gedit + https://github.com/wavded/gedit-coffeescript
 
 Part Two - Your First CoffeeScript Programs
 -------------------------------------------
 
 ### Fizzbuzz in JavaScript
 
-* Migrate to CoffeeScript
-* Refactor
+* Migrate fizzbuzz.js to fizzbuzz_returns.coffee
+* Refactor to fizzbuzz_expression.coffee
 
 ### Word counter
+
+* Implement a word counter algorithm in CoffeeScript
+* Refactor to use underscore.js to demonstrate interoperability with JavaScript libraries
 
 
 Part Three - CoffeeScript in Detail
 -----------------------------------
 
 ### Variables and Assignment
-
-* deconstruction
+    * same as JavaScript
+    * = or : for object literals
+    * deconstruction
 
 ### Comments
+
 
 ### Data Types
 
