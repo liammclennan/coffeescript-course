@@ -113,6 +113,7 @@ Part Three - CoffeeScript in Detail
 
 * line comments #
 * block comments
+
   ###
 
   ###
@@ -120,8 +121,11 @@ Part Three - CoffeeScript in Detail
 ### Data Types
 
 * string
-* interpolation
-* heredocs
+  * interpolation "#{}" and literal ''
+  * multiline
+  * heredocs   '''    ''' or """   """
+  * work through strings.coffee in the 'Try CoffeeScript' console
+
 * number
 * array
 * array looping thing
