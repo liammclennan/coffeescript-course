@@ -97,13 +97,25 @@ Part Two - Your First CoffeeScript Programs
 Part Three - CoffeeScript in Detail
 -----------------------------------
 
+### Blocks
+
+* Blocks group statements
+* C style (including JavaScript, Java, C#) block syntax { }
+* CoffeeScript block syntax == indentation
+
 ### Variables and Assignment
-    * same as JavaScript
-    * = or : for object literals
-    * deconstruction
+
+* same as JavaScript except CS enforces lexical scoping (nearest function, NOT block). var is not needed.
+* = or : for object literals
+* deconstruction [x,y] = [3,2]
 
 ### Comments
 
+* line comments #
+* block comments
+  ###
+
+  ###
 
 ### Data Types
 
@@ -125,7 +137,12 @@ Part Three - CoffeeScript in Detail
 
 ### Object Literals
 
-* Control Flow
+* Inline { name: "Frank", age: 28 }
+* Multiline
+* Without commas
+* Without {}
+
+### Control Flow
 * Error Handling
 * Operators
 
