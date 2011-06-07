@@ -134,8 +134,18 @@ Part Three - CoffeeScript in Detail
   * typeof 1 - typeof is an operator (not a function) so () not required, even in JS
   * 0.1 * 0.1 = 0.0100...02 because 1/3 is recurring when expressed in base 2, same as 1/3 in base 10
   
+* ranges
+  
 * array
-* array looping thing
+  * declared using literal syntax [] 
+  * can span lines
+  
+* array comprehension
+  * can be used to iterate over the items in an array
+  * can have a guard clause
+  * can iterate over a range
+  * can iterate over objects
+
 * object
 * regex
 
