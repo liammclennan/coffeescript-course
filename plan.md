@@ -6,6 +6,8 @@ Part 1 - Meet CoffeeScript:
 
 ### What is CoffeeScript?
 
+* Assumptions
+    * you know JS
 * History
 * Syntax
     * Significant whitespace
@@ -120,13 +122,18 @@ Part Three - CoffeeScript in Detail
 
 ### Data Types
 
-* string
+* string (strings.coffee)
   * interpolation "#{}" and literal ''
   * multiline
   * heredocs   '''    ''' or """   """
   * work through strings.coffee in the 'Try CoffeeScript' console
 
-* number
+* number (numbers.coffee)
+  * same as js, all numbers are floats
+  * access to JS properties like Math.PI 
+  * typeof 1 - typeof is an operator (not a function) so () not required, even in JS
+  * 0.1 * 0.1 = 0.0100...02 because 1/3 is recurring when expressed in base 2, same as 1/3 in base 10
+  
 * array
 * array looping thing
 * object
