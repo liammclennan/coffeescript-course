@@ -146,8 +146,9 @@ Part Three - CoffeeScript in Detail
   * can iterate over a range
   * can iterate over objects
 
-* object
 * regex
+  * same as JS ( /pattern/flags )
+  * /[\dA-F]+/i
 
 ### Functions
 
