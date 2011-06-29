@@ -156,6 +156,7 @@ Part Three - CoffeeScript in Detail
 * Invocation
 * Splats
 * Context Binding (->, =>)
+* Implicit returns
 
 ### Object Literals
 
