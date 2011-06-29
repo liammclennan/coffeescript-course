@@ -25,8 +25,7 @@ var commands = {
 
 fs.readFile(__dirname + '/coffee-script.js', 'utf-8', function(err, content) {
     if (err) throw err;
-    eval(content.toString());
-	console.log(__dirname);
+    eval(content.toString());	
 	fs.readFile(__dirname + '/' + args.coffeeScript, 'utf-8', function(e, c) {
 		if (err) throw err;
 		if (!c) {
