@@ -1,0 +1,6 @@
+1. CoffeeScript compiles to:
+
+A. MSIL
+B. JavaScript
+C. Java bytecode
+D. Machine code
