@@ -1,6 +1,3 @@
-alert = (message) -> 
-	console.log message
-
 language = "CoffeeScript"
 
 message = "Hello #{language}"
