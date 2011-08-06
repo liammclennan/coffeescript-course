@@ -4,3 +4,24 @@ A. MSIL
 B. JavaScript
 C. Java bytecode
 D. Machine code
+
+2. CoffeeScript code blocks are denoted by:
+
+A. Curly braces 
+B. Parenthesis
+C. Semi-colon
+D. Indentation
+
+3. The CoffeeScript syntax for functions is:
+
+A. ->
+B. function() {}
+C. =>
+D. {|| }
+
+4. The CoffeeScript syntax for string interpolation is:
+
+A. "Hello " + name 
+B. "Hello @name"
+C. "Hello %{name}"
+D. "Hello #{name}"
