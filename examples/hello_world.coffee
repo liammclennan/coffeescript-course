@@ -3,6 +3,6 @@ language = "CoffeeScript"
 message = "Hello #{language}"
 
 output = (comment) ->
-    alert comment
+    console.log comment
 
 output message
