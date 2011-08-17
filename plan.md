@@ -96,7 +96,7 @@ Part Two - Your First CoffeeScript Programs
 * Refactor to use underscore.js to demonstrate interoperability with JavaScript libraries
 
 
-Part Three - CoffeeScript in Detail
+Part Three - CoffeeScript Language Elements
 -----------------------------------
 
 ### Blocks
@@ -115,6 +115,14 @@ Part Three - CoffeeScript in Detail
 
 * line comments #
 * block comments
+
+### Conditionals
+
+* if and unless
+
+### Loops
+
+
 
   ###
 
@@ -139,12 +147,6 @@ Part Three - CoffeeScript in Detail
 * array
   * declared using literal syntax [] 
   * can span lines
-  
-* array comprehension
-  * can be used to iterate over the items in an array
-  * can have a guard clause
-  * can iterate over a range
-  * can iterate over objects
 
 * regex
   * same as JS ( /pattern/flags )
