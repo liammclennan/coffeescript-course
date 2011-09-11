@@ -25,3 +25,152 @@ A. "Hello " + name
 B. "Hello @name"
 C. "Hello %{name}"
 D. "Hello #{name}"
+
+5. CoffeeScript line comments begin with:
+
+A. #
+B. //
+C. -- 
+D. '
+
+6. The correct syntax for assigning a variable in CoffeeScript is:
+
+A. count = 0
+B. dim count = 0
+C. var count = 0
+D. count = (-> 0)()
+
+7. Given the expression [x, [y1, y2]] = [-27, [1, 2]] what is the value of y1?
+
+A. null
+B. -27
+C. undefined
+D. 1
+
+8. What is the keyword for the negative conditional operator (ie the inverse of if)?
+
+A. unless
+B. until
+C. not
+D. if !
+
+9. Which of these is a CoffeeScript ternary if expression?:
+
+A. condition ? "yes" : "no"
+B. switch condition 
+       when true then "yes"
+       when false then "no"
+C. if condition then "yes" else "no"
+D. iif(condition, "yes", "no")
+
+10. Which of the following is/are valid loop operators in CoffeeScript:
+
+A. until
+B. while
+C. for 
+D. All of the above
+
+11. The 'when' keyword:
+
+A. Defines a branch of a switch statement
+B. Applies an object context to a code block
+C. Applies a guard to an array comprehension
+D. A and C
+
+12. The textual logical operator equivalent to !== is:
+
+A. isnt
+B. is not
+C. not is
+D. !=
+
+13. The expression 1 < 5 < 3 + 2 evaluates to:
+
+A. true
+B. undefined
+C. NaN
+D. false
+
+14. What is the value of this expression? '#{1+1}'
+
+A. 2
+B. '#{1+1}'
+C. two
+D. '2'
+
+15. The character sequence that denotes the start of a multiline string with interpolation is:
+
+A. <<
+B. ###
+C. """
+D. '''
+
+16. Which of the following will produce an array containing all of the even numbers between 1 and 10 (inclusive)?:
+
+A. (i for i in [1..10] when i % 2 is 0)
+B. (i for i in [2..10] by 2)
+C. (2*i for i in [1..5])
+D. All of the above
+
+17. Which of these expressions will return 'ray'?
+
+A. 'Array Slicing'[1..4]
+B. 'Array Slicing'[3..5]
+C. 'Array Slicing'[2...5]
+D. 'Array Slicing'[2,4]
+
+18. Extended regular expressions are denoted with:
+
+A. /
+B. ###
+C. '''
+D. ///
+
+19. What is the value of the following expression? (-> (-> 1 ))()
+
+A. A function
+B. null
+C. Compile error
+D. 1
+
+20. What is the value of the following expression? (-> (-> 1 ))()()
+
+A. A function
+B. null
+C. Compile error
+D. 1
+
+21. What is the value of the following expression? ((x = 'a')-> x[0])('1')
+
+A. 'a'
+B. '1'
+C. 1
+D. '0'
+
+22. What is the purpose of the 'fat arrow' ( => )?
+
+A. To separate keys and values in a hash
+B. To indicate directionality
+C. To bind the value of 'this' when defining a function 
+D. All of the above
+
+23. What is the keyword that defines a CoffeeScript class?
+
+A. def
+B. new
+C. klass
+D. class
+
+24. When defining a class how do specify that a property should have private visability?:
+
+A. private keyword
+B. you can't
+C. prefix with _
+D. none of the above
+
+25. Which of the following defines a class B that inherits from A?
+
+A. class B : A
+B. class A extends B
+C. class B extends A
+D. class A : B
