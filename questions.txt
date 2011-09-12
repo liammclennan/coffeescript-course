@@ -56,25 +56,24 @@ Q) The correct syntax for assigning a variable in CoffeeScript is:
 
 9. Which of these is a CoffeeScript ternary if expression?:
   - condition ? "yes" : "no"
-  - switch condition 
-       when true then "yes"
-       when false then "no"
-  - if condition then "yes" else "no"
+  * if condition then "yes" else "no"
   - iif(condition, "yes", "no")
+  - none of the other answers
+  = liam-mclennan|language-elements|4
 
 10. Which of the following is/are valid loop operators in CoffeeScript:
-
   - until
   - while
   - for 
-  - All of the above
+  * all of the other answers
+  = liam-mclennan|language-elements|5
 
 11. The 'when' keyword:
-
   - Defines a branch of a switch statement
   - Applies an object context to a code block
   - Applies a guard to an array comprehension
-  - A and C
+  * Defines a branch of a switch statement and applies a guard to an array comprehension
+  = liam-mclennan|
 
 12. The textual logical operator equivalent to !== is:
 
